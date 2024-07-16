@@ -7,8 +7,6 @@ local del = vim.keymap.del
 --
 
 -- identation
-del("n", ">")
-del("n", "<")
 map("n", ">", ">l", { remap = true, silent = true, desc = "Indent" })
 map("n", "<", "<h", { remap = true, silent = true, desc = "Deindent" })
 
