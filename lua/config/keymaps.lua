@@ -16,3 +16,7 @@ map("x", "<C-/>", "gc", { remap = true, silent = true, desc = "Comment selection
 
 -- close
 map("n", "<C-w>", "<leader>bd", { remap = true, silent = true, desc = "Close buffer" })
+
+map("n", "<C-T>", function() LazyVim.terminal() end, { desc = "Terminal (cwd)" })
+map("t", "<esc><esc>", "<cmd>close<cr>", { desc = "Hide Terminal" })
+

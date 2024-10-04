@@ -7,4 +7,5 @@ vim.g.autoformat = false
 
 local opt = vim.opt
 opt.formatoptions = "jqlnt" -- tcqj
+opt.relativenumber = false
 
